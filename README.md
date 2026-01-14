@@ -45,12 +45,15 @@ lat_sou = 24.0151;  % Geo-location of emission source (latitude)
 lon_sou = 82.7978; % Geo-location of emission source (longitude)
 
 lat_sou = [24.202043, 24.1042119, 24.027];    % Geo-location of emission source if there are more than one source (latitude)
+
 lon_sou = [82.789128, 82.7063552, 82.7915 ];  % Geo-location of emission source if there are more than one source (longitude)
 
 lat_ano = 23.9013992799531; % Geo-location of XCO2 anomaly (latitude)
+
 lon_ano = 83.1563360231732; % Geo-location of XCO2 anomaly (longitude)
 
 ws_ano = 2.49; % Wind speed
+
 wd_ano = 320.49; % Wind direction
 
 bad_data = 'YES'; % Do you want to include bad data (YES/NO)
