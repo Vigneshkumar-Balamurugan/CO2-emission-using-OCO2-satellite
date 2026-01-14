@@ -4,7 +4,7 @@ This repository provides a MATLAB implementation for estimating point-source CO�
 The methodology follows the framework described in:
 
 **Reference**  
-Author et al. (2023), *Satellite-based detection and quantification of CO₂ emissions using OCO-2 observations*, **Earth’s Future**.  
+Balamurugan et al. (2024), *Fossil Fuel CO2 Emission Signatures Over India Captured by OCO-2 Satellite Measurements*, **Earth’s Future**.  
 https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2023EF004411
 
 The methodology is suitable for:
