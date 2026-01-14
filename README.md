@@ -40,14 +40,15 @@ rep_emi_cb = 10;  % Known CO2 emission number in Mt/year (e.g, from inventory)
 
 rep_emi_cb = [5.16, 4.18];  % Known CO2 emission if there are more than one source
 
-lat_sou = 24.0151;  % Geo-location of emission source
-lon_sou = 82.7978;
+lat_sou = 24.0151;  % Geo-location of emission source (latitude)
 
-lat_sou = [24.202043, 24.1042119, 24.027];    % Geo-location of emission source if there are more than one source
-lon_sou = [82.789128, 82.7063552, 82.7915 ];
+lon_sou = 82.7978; % Geo-location of emission source (longitude)
 
-lat_ano = 23.9013992799531; % Geo-location of XCO2 anomaly (enhancemenet)
-lon_ano = 83.1563360231732;
+lat_sou = [24.202043, 24.1042119, 24.027];    % Geo-location of emission source if there are more than one source (latitude)
+lon_sou = [82.789128, 82.7063552, 82.7915 ];  % Geo-location of emission source if there are more than one source (longitude)
+
+lat_ano = 23.9013992799531; % Geo-location of XCO2 anomaly (latitude)
+lon_ano = 83.1563360231732; % Geo-location of XCO2 anomaly (longitude)
 
 ws_ano = 2.49; % Wind speed
 wd_ano = 320.49; % Wind direction
