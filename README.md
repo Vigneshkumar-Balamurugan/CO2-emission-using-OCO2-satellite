@@ -37,6 +37,7 @@ oco2_myFolder = 'D:\India_OCO_data\OCO_2_data';  % Folder containing OCO-2 data
 date_ano = 210113; % Investigation date (141023 --> 2014, 10, 23)
 
 rep_emi_cb = 10;  % Known CO2 emission number in Mt/year (e.g, from inventory)
+
 % rep_emi_cb = [5.16, 4.18];  % Known CO2 emission if there are more than one source
 
 lat_sou = 24.0151;  % Geo-location of emission source
