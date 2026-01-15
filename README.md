@@ -30,6 +30,16 @@ The code estimates CO₂ emissions from a point source by:
 3. Calculating observed XCO₂ enhancements
 4. Estimating an emission using cross-sectional emission flux
 
+## How to Run
+
+### 1. Gaussian Plume Model
+- Modify the required input parameters in `Main_GP_Model.m`
+- Run `Main_GP_Model.m`
+
+### 2. Cross-sectional Emission Flux
+- Modify the required input parameters in `Main_CS_Model.m`
+- Run `Main_CS_Model.m`
+
 ## Required Fields
 
 For one source:
@@ -64,13 +74,5 @@ For more than one sources:
 | `bad_data` | Include bad data (`YES` / `NO`) | `YES` |
 | `rot_val` | Extra plume rotation angle (degrees) | `25` |
 
-## How to Run
 
-### 1. Gaussian Plume Model
-- Modify the required input parameters in `Main_GP_Model.m`
-- Run `Main_GP_Model.m`
-
-### 2. Cross-sectional Emission Flux
-- Modify the required input parameters in `Main_CS_Model.m`
-- Run `Main_CS_Model.m`
    
