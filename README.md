@@ -32,30 +32,18 @@ The code estimates CO₂ emissions from a point source by:
 
  ## Required fields
 
-oco2_myFolder = 'D:\India_OCO_data\OCO_2_data';  *% Folder containing OCO-2 data*
+### Required Inputs
 
-date_ano = 210113; % Investigation date (141023 --> 2014, 10, 23)
-
-rep_emi_cb = 10;  % Known CO2 emission number in Mt/year (e.g, from inventory)
-
-rep_emi_cb = [5.16, 4.18];  % Known CO2 emission if there are more than one source
-
-lat_sou = 24.0151;  % Geo-location of emission source (latitude)
-
-lon_sou = 82.7978; % Geo-location of emission source (longitude)
-
-lat_sou = [24.202043, 24.1042119, 24.027];    % Geo-location of emission source if there are more than one source (latitude)
-
-lon_sou = [82.789128, 82.7063552, 82.7915 ];  % Geo-location of emission source if there are more than one source (longitude)
-
-lat_ano = 23.9013992799531; % Geo-location of XCO2 anomaly (latitude)
-
-lon_ano = 83.1563360231732; % Geo-location of XCO2 anomaly (longitude)
-
-ws_ano = 2.49; % Wind speed
-
-wd_ano = 320.49; % Wind direction
-
-bad_data = 'YES'; % Do you want to include bad data (YES/NO)
-
-rot_val = 25; % angle to rotate plume in addition to wind info (negative value makes plume rotate clockwise and vice versa for positive value)
+| Parameter | Description | Example |
+|---------|------------|---------|
+| `oco2_data_folder` | Path to folder containing OCO-2 data | `D:\India_OCO_data\OCO_2_data` |
+| `date_ano` | Investigation date (YYMMDD) | `210113` |
+| `rep_emi_cb` | Known CO₂ emission(s) (Mt/year) | `[5.16, 4.18]` |
+| `lat_sou` | Latitude of emission source(s) | `[24.202043, 24.1042119]` |
+| `lon_sou` | Longitude of emission source(s) | `[82.789128, 82.7063552]` |
+| `lat_ano` | Latitude of XCO₂ anomaly | `23.9013992799531` |
+| `lon_ano` | Longitude of XCO₂ anomaly | `83.1563360231732` |
+| `ws_ano` | Wind speed (m/s) | `2.49` |
+| `wd_ano` | Wind direction (degrees) | `320.49` |
+| `bad_data` | Include bad data (`YES` / `NO`) | `YES` |
+| `rot_val` | Extra plume rotation angle (degrees) | `25` |
