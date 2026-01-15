@@ -30,10 +30,25 @@ The code estimates CO₂ emissions from a point source by:
 3. Calculating observed XCO₂ enhancements
 4. Estimating an emission using cross-sectional emission flux
 
- ## Required fields
+## Required Inputs
 
-### Required Inputs
+For one source:
 
+| Parameter | Description | Example |
+|---------|------------|---------|
+| `oco2_data_folder` | Path to folder containing OCO-2 data | `D:\India_OCO_data\OCO_2_data` |
+| `date_ano` | Investigation date (YYMMDD) | `210113` |
+| `rep_emi_cb` | Known CO₂ emission(s) (Mt/year) | `[5.16]` |
+| `lat_sou` | Latitude of emission source(s) | `[24.202043]` |
+| `lon_sou` | Longitude of emission source(s) | `[82.789128]` |
+| `lat_ano` | Latitude of XCO₂ anomaly | `23.9013992799531` |
+| `lon_ano` | Longitude of XCO₂ anomaly | `83.1563360231732` |
+| `ws_ano` | Wind speed (m/s) | `2.49` |
+| `wd_ano` | Wind direction (degrees) | `320.49` |
+| `bad_data` | Include bad data (`YES` / `NO`) | `YES` |
+| `rot_val` | Extra plume rotation angle (degrees) | `25` |
+
+For more than one sources:
 | Parameter | Description | Example |
 |---------|------------|---------|
 | `oco2_data_folder` | Path to folder containing OCO-2 data | `D:\India_OCO_data\OCO_2_data` |
@@ -46,4 +61,5 @@ The code estimates CO₂ emissions from a point source by:
 | `ws_ano` | Wind speed (m/s) | `2.49` |
 | `wd_ano` | Wind direction (degrees) | `320.49` |
 | `bad_data` | Include bad data (`YES` / `NO`) | `YES` |
-| `rot_val` | Extra plume rotation angle (degrees) | `25` |
+| `rot_val` | Extra plume rotation angle (degrees) negative value makes plume rotate clockwise and vice versa | `25` |
+
