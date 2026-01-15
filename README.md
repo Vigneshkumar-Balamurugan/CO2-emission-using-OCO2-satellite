@@ -16,7 +16,7 @@ The methodology is suitable for:
 
 The code estimates CO₂ emissions from a point source by:
 
-## Gaussian Plume Model
+### Gaussian Plume Model
 
 1. Extracting OCO-2 XCO₂ data around a target region
 2. Estimating background XCO₂ using weighted curve fitting
@@ -24,12 +24,12 @@ The code estimates CO₂ emissions from a point source by:
 4. Simulating expected enhancements using a Gaussian plume model
 5. Estimating an emission scaling factor via least-square fitting method
 
-## Cross-sectional Emission Flux 
+### Cross-sectional Emission Flux 
 1. Extracting OCO-2 XCO₂ data around a target region
 2. Estimating background XCO₂ using weighted curve fitting
 3. Calculating observed XCO₂ enhancements
 4. Estimating an emission using cross-sectional emission flux
-
+---
 ## How to Run
 
 ### 1. Gaussian Plume Model
@@ -42,7 +42,7 @@ The code estimates CO₂ emissions from a point source by:
 
 ## Required Fields
 
-For one source:
+### For one source:
 
 | Parameter | Description | Example |
 |---------|------------|---------|
@@ -58,7 +58,7 @@ For one source:
 | `bad_data` | Include bad data (`YES` / `NO`) | `YES` |
 | `rot_val` | Extra plume rotation angle (degrees) | `25` |
 
-For more than one sources:
+### For more than one sources:
 
 | Parameter | Description | Example |
 |---------|------------|---------|
