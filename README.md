@@ -32,7 +32,7 @@ The code estimates CO₂ emissions from a point source by:
 
  ## Required fields
 
-oco2_myFolder = 'D:\India_OCO_data\OCO_2_data';  % Folder containing OCO-2 data
+oco2_myFolder = 'D:\India_OCO_data\OCO_2_data';  *% Folder containing OCO-2 data*
 
 date_ano = 210113; % Investigation date (141023 --> 2014, 10, 23)
 
