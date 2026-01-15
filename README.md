@@ -30,7 +30,7 @@ The code estimates CO₂ emissions from a point source by:
 3. Calculating observed XCO₂ enhancements
 4. Estimating an emission using cross-sectional emission flux
 
-## Required Inputs
+## Required Fields
 
 For one source:
 
@@ -49,6 +49,7 @@ For one source:
 | `rot_val` | Extra plume rotation angle (degrees) | `25` |
 
 For more than one sources:
+
 | Parameter | Description | Example |
 |---------|------------|---------|
 | `oco2_data_folder` | Path to folder containing OCO-2 data | `D:\India_OCO_data\OCO_2_data` |
@@ -61,6 +62,15 @@ For more than one sources:
 | `ws_ano` | Wind speed (m/s) | `2.49` |
 | `wd_ano` | Wind direction (degrees) | `320.49` |
 | `bad_data` | Include bad data (`YES` / `NO`) | `YES` |
-| `rot_val` | Extra plume rotation angle (degrees) 
-Negative value makes the plume rotate clockwise and vice versa | `25` |
+| `rot_val` | Extra plume rotation angle (degrees) | `25` |
 
+## How to Run
+
+### 1. Gaussian Plume Model
+- Modify the required input parameters in `Main_GP_Model.m`
+- Run `Main_GP_Model.m`
+
+### 2. Cross-sectional Emission Flux
+- Modify the required input parameters in `Main_CS_Model.m`
+- Run `Main_CS_Model.m`
+   
