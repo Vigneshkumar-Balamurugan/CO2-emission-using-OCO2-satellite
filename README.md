@@ -61,5 +61,6 @@ For more than one sources:
 | `ws_ano` | Wind speed (m/s) | `2.49` |
 | `wd_ano` | Wind direction (degrees) | `320.49` |
 | `bad_data` | Include bad data (`YES` / `NO`) | `YES` |
-| `rot_val` | Extra plume rotation angle (degrees) negative value makes plume rotate clockwise and vice versa | `25` |
+| `rot_val` | Extra plume rotation angle (degrees) 
+Negative value makes the plume rotate clockwise and vice versa | `25` |
 
